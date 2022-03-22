@@ -20,6 +20,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.card:hover{
+    transform: scale(110%);
 }
 .card img {
     border-radius: 12px;
@@ -60,5 +65,5 @@ h1{
 }
 .attribution a:hover{
     text-decoration: overline;
-    text-decoration-color: aqua;
+    text-decoration-color: rgb(142, 156, 202);
 }
